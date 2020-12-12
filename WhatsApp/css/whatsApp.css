@@ -7,8 +7,11 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     padding: 0;
     margin: 0;   
+   
 }
-
+ul{
+    list-style: none;
+}
 a{
     text-decoration: none;
     color: white;
@@ -79,6 +82,7 @@ section{
     padding: 100px 10px 20px 20px;
     box-sizing: border-box;
     display: block;
+    margin-bottom: 30px;
 }
 section .p1{
     font-size: 30px;
@@ -122,3 +126,109 @@ aside img{
     margin: 0 auto;
     width: 280px;
 }
+.container3{
+    width: 95%;
+    margin: auto;
+
+}
+#art1{
+   
+    float: left;
+    width: 49%;
+    padding:20px 20px 0px 20px ;
+    text-align: center;
+  
+    box-sizing: border-box;
+    background-color: #d0e9ea;
+}
+#art1 h7{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 29px;
+   position: relative;
+   top:50px;
+   
+}
+#art1 a{
+    color:#5cc7ec ;
+    font-weight:500;
+}
+article p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 50px;
+}
+#art1 #Bp1{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+#art1 #Bp2{
+    padding-top: 0s;
+    padding-bottom: 40px;
+    margin-top: 0px;
+}
+
+#art1 img{
+    margin: 0;
+    position: relative;
+   
+    
+}
+#art2{
+    background-color: #edf8f5;
+    float: right;
+    width: 49%;
+    padding: 20px 20px 50px 20px;
+    text-align: center;
+   
+    box-sizing: border-box;
+}
+#art2 img{
+    max-width: 273px;
+    height: 273px;
+    padding: 20px;
+}
+#art2 p{
+    padding-bottom: 130px;
+}
+
+/* footer1 */
+footer#mainFooter{
+    background-color: #273443;
+}
+
+#mainFooter h6{
+    color: rgba(255, 255, 255, .6);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    line-height: 14px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.boxes .box{
+    float: left;
+    width: 20%;
+}
+.boxes .box{
+    text-align: center;
+}
+#footer2{
+    margin:0%;
+    background-color: #232f3c;
+    
+}
+#footer2 p{
+    
+    box-sizing: border-box;
+    float: left;
+    padding-right: 24px;float: left;
+    font-size: 16px;
+  
+}
+#copy{
+    color: rgba(255, 255, 255, .6);
+    font-size: 12px;
+}
+

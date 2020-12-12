@@ -35,10 +35,7 @@ header p{
     float: left;
     font-size: 20px;padding:10px 0 0 50px ;
     font-weight: lighter;
-    box-sizing: border-box;
-
-    
-    
+    box-sizing: border-box;    
 }
 nav{
     position: relative;
@@ -71,9 +68,57 @@ nav select option{
 }
 
 /* main block */
+.container2{
+    width: 62%;
+    margin: auto;
+    overflow: hidden;
+}
+section{
+    width: 45%;
+    float: left;
+    padding: 100px 10px 20px 20px;
+    box-sizing: border-box;
+    display: block;
+}
+section .p1{
+    font-size: 30px;
+    line-height: 1em;
+    padding-top: 80px;
+}
+section .p1 p{
+    margin: 0;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+section #p2{
+    font-size: 12px;
+    line-height: 20px;
+    opacity: 0.78;
+}
+.devices ul{
+    margin: auto;
+    padding: 0;
+}
+.devices li {
+    padding:7px ;
+}
+.devices a{
+    margin: 0;
+}
  .main1 ul{
      list-style: none;
  }
  .main1 li a{
     color:#1ebea5 ;
  }
+aside{
+    width: 50%;
+    float: right;
+    padding: 60px 20px 20px 20px;
+    box-sizing: border-box;
+}
+aside img{
+    height: 520px;
+    margin: 0 auto;
+    width: 280px;
+}

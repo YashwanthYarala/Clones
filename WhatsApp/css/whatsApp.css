@@ -303,9 +303,15 @@ footer#mainFooter{
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
-        flex-wrap: nowrap;
+        
         align-items: center;
+        
     }
+    .boxes .box ul{
+        padding-left: 0;
+       
+    }
+    
     img{
         max-width: 100%;
         height: auto;

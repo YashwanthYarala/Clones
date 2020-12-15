@@ -75,6 +75,7 @@ nav select option{
     width: 62%;
     margin: auto;
     overflow: hidden;
+    display: flex;
 }
 section{
     width: 45%;
@@ -129,6 +130,10 @@ aside img{
 .container3{
     width: 95%;
     margin: auto;
+    display: flex;
+    padding: 100px 20px;
+    justify-content: space-around;
+    
 
 }
 #art1{

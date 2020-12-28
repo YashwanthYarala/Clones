@@ -1,326 +1,312 @@
+.clr {
+  clear: both;
+}
+body {
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0%;
+  width: 100%;
+  background-color: #1ebea5;
 
-.clr{
-    clear: both;
+  min-height: 20px;
+  color: white;
 }
-body{
-    background-color:#ffffff ;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    padding: 0;
-    margin: 0;   
-    
-    
+header h3 {
+  font-size: 20px;
+  padding: 10px 0 0 50px;
+  font-weight: lighter;
+  box-sizing: border-box;
 }
-ul{
-    list-style: none;
+header p {
+  float: left;
+  font-size: 20px;
+  padding: 10px 0 0 50px;
+  font-weight: lighter;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: white;
-    
- }
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-header{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin: 0%;
-    width: 100%;
-    background-color: #1ebea5;
-    
-    min-height: 20px;
-    color: white;
-    
-    
-}
-header p{
-
-    float: left;
-    font-size: 20px;padding:10px 0 0 50px ;
-    font-weight: lighter;
-    box-sizing: border-box;    
-}
-nav{
-    position: relative;
-    top: -20px;
-   
+nav {
+  position: relative;
+  top: -20px;
 }
 
-nav ul{
-    margin: 0;
-    list-style: none;
-   
+nav ul {
+  margin: 0;
+  list-style: none;
 }
-nav li{
-    float: right;
-    font-size: 10px;
-    padding: 0 20px;
-    font-weight: bold;
-    box-sizing: border-box;
-
-    
+nav li {
+  float: right;
+  font-size: 10px;
+  padding: 0 20px;
+  font-weight: bold;
+  box-sizing: border-box;
 }
-nav select{
-   background-color: transparent;
-   color: #ffffff;
-   padding: 2px;
-   margin: -1px;
-   border: none;
+nav select {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 2px;
+  margin: -1px;
+  border: none;
 }
-nav select option{
-    background-color: #1ebea5 ;
-    padding: 10px;   
+nav select option {
+  background-color: #1ebea5;
+  padding: 10px;
 }
 
 /* main block */
-.container2{
-    width: 62%;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
+.container2 {
+  width: 62%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
 }
-section{
-    width: 45%;
-    float: left;
-    padding: 100px 10px 20px 20px;
-    box-sizing: border-box;
-    display: block;
-    margin-bottom: 30px;
+section {
+  width: 45%;
+  float: left;
+  padding: 100px 10px 20px 20px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 30px;
 }
-section .p1{
-    font-size: 30px;
-    line-height: 1em;
-    padding-top: 80px;
+section .p1 {
+  font-size: 30px;
+  line-height: 1em;
+  padding-top: 80px;
 }
-section .p1 p{
-    margin: 0;
-    font-weight: lighter;
-    opacity: 0.8;
+section .p1 p {
+  margin: 0;
+  font-weight: lighter;
+  opacity: 0.8;
 }
-section #p2{
-    font-size: 12px;
-    line-height: 20px;
-    opacity: 0.78;
+section #p2 {
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0.78;
 }
-.devices ul{
-    margin: auto;
-    padding: 0;
+.devices ul {
+  margin: auto;
+  padding: 0;
 }
 .devices li {
-    padding:7px ;
+  padding: 7px;
 }
-.devices a{
-    margin: 0;
+.devices a {
+  margin: 0;
 }
- .main1 ul{
-     list-style: none;
- }
- .main1 li a{
-    color:#1ebea5 ;
- }
-aside{
-    width: 50%;
-    float: right;
-    padding: 60px 20px 20px 20px;
-    box-sizing: border-box;
+.main1 ul {
+  list-style: none;
 }
-aside img{
-    height: 520px;
-    margin: 0 auto;
-    width: 280px;
+.main1 li a {
+  color: #1ebea5;
 }
-.container3{
-    width: 95%;
-    margin: auto;
-    display: flex;
-    padding: 100px 20px;
-    justify-content: space-around;
-    
+aside {
+  width: 50%;
+  float: right;
+  padding: 60px 20px 20px 20px;
+  box-sizing: border-box;
+}
+aside img {
+  height: 520px;
+  margin: 0 auto;
+  width: 280px;
+}
+.container3 {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  padding: 100px 20px;
+  justify-content: space-around;
+}
+#art1 {
+  float: left;
+  width: 49%;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
 
+  box-sizing: border-box;
+  background-color: #d0e9ea;
 }
-#art1{
-   
-    float: left;
-    width: 49%;
-    padding:20px 20px 0px 20px ;
-    text-align: center;
-  
-    box-sizing: border-box;
-    background-color: #d0e9ea;
+#art1 h7 {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 29px;
+  position: relative;
+  top: 50px;
 }
-#art1 h7{
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 0.05em;
-    line-height: 29px;
-   position: relative;
-   top:50px;
-   
+#art1 a {
+  color: #5cc7ec;
+  font-weight: 500;
 }
-#art1 a{
-    color:#5cc7ec ;
-    font-weight:500;
+article p {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 50px;
 }
-article p{
-    font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 50px;
+#art1 #Bp1 {
+  margin-top: 80px;
+  margin-bottom: 10px;
 }
-#art1 #Bp1{
-    margin-top: 80px;
-    margin-bottom: 10px;
-}
-#art1 #Bp2{
-    padding-top: 0s;
-    padding-bottom: 40px;
-    margin-top: 0px;
+#art1 #Bp2 {
+  padding-top: 0s;
+  padding-bottom: 40px;
+  margin-top: 0px;
 }
 
-#art1 img{
-    margin: 0;
-    position: relative;
-   
-    
+#art1 img {
+  margin: 0;
+  position: relative;
 }
-#art2{
-    background-color: #edf8f5;
-    float: right;
-    width: 49%;
-    padding: 20px 20px 50px 20px;
-    text-align: center;
-   
-    box-sizing: border-box;
+#art2 {
+  background-color: #edf8f5;
+  float: right;
+  width: 49%;
+  padding: 20px 20px 50px 20px;
+  text-align: center;
+
+  box-sizing: border-box;
 }
-#art2 img{
-    max-width: 273px;
-    height: 273px;
-    padding: 20px;
+#art2 img {
+  max-width: 273px;
+  height: 273px;
+  padding: 20px;
 }
-#art2 p{
-    padding-bottom: 130px;
+#art2 p {
+  padding-bottom: 130px;
 }
 
 /* footer1 */
-footer#mainFooter{
-    background-color: #273443;
+footer#mainFooter {
+  background-color: #273443;
 }
 
-#mainFooter h6{
-    color: rgba(255, 255, 255, .6);
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: .08em;
-    line-height: 14px;
-    margin-bottom: 22px;
-    text-transform: uppercase;
+#mainFooter h6 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 14px;
+  margin-bottom: 22px;
+  text-transform: uppercase;
 }
-.boxes .box{
-    float: left;
-    width: 20%;
+.boxes .box {
+  float: left;
+  width: 20%;
 }
-.boxes .box{
-    text-align: center;
+.boxes .box {
+  text-align: center;
 }
-#footer2{
-    margin:0%;
-    background-color: #232f3c;
-    
+#footer2 {
+  margin: 0%;
+  background-color: #232f3c;
 }
-#footer2 p{
-    
-    box-sizing: border-box;
-    float: left;
-    padding-right: 24px;float: left;
-    font-size: 16px;
-    font-weight: 300;
-  
+#footer2 p {
+  box-sizing: border-box;
+  float: left;
+  padding-right: 24px;
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
 }
-#copy{
-    color: rgba(255, 255, 255, .6);
-    font-size: 12px;
+#copy {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
 }
 
-@media(max-width: 873px)
-{ 
-     .container{
+@media (max-width: 873px) {
+  .container {
     margin: 0%;
     width: 100%;
-}
-    header{
-        width: auto;
-        margin: auto;
-        
-    }
-    header ul{
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 40px;
-    }
-    header select{
-        width: 45px;
-    }
-    header .heading{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-       
-    }
-    header p{
-       text-align: center;
-       padding: 40px 40px 0px 40px;
-   }
-    .container2,.container3 {
-        float: none;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        padding: 0;
-        width: 100%;
-        margin: auto;
-    }
-    .container2 section,.container2 aside{
-        width:100%;
-        padding: 0;
-    }
-    .container3 #art1 ,#art2{
-        width:100%;
-        padding: 0;
-    }
-    #foot{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
-    }
-    #mainfooter{
-        margin: 0;
-        width: 100%;
-    }
+  }
+  header {
+    width: auto;
+    margin: auto;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px;
+  }
+  header select {
+    width: 45px;
+  }
+  header .heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  header p {
+    text-align: center;
+    padding: 40px 40px 0px 40px;
+  }
+  .container2,
+  .container3 {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+  }
+  .container2 section,
+  .container2 aside {
+    width: 100%;
+    padding: 0;
+  }
+  .container3 #art1,
+  #art2 {
+    width: 100%;
+    padding: 0;
+  }
+  #foot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #mainfooter {
+    margin: 0;
+    width: 100%;
+  }
 
-    .boxes{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        
-        align-items: center;
-        
-    }
-    .boxes .box ul{
-        padding-left: 0;
-       
-    }
-    
-    img{
-        max-width: 100%;
-        height: auto;
-        padding: 0;
-    }
-    #art2 img{
-        max-width: 50%;
-        height: auto;
-        padding: 0;
-    }
- 
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    align-items: center;
+  }
+  .boxes .box ul {
+    padding-left: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  #art2 img {
+    max-width: 50%;
+    height: auto;
+    padding: 0;
+  }
 }
